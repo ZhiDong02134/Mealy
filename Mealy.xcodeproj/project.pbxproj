@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3024E88F281DF4B900258AD0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3024E88E281DF4B900258AD0 /* GoogleService-Info.plist */; };
+		30603AFE281484C300766B1C /* MealListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30603AFD281484C300766B1C /* MealListController.swift */; };
+		30677091281A106900D98562 /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30677090281A106900D98562 /* MealCell.swift */; };
+		30679AB7281DF63800CE6F48 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 30679AB6281DF63800CE6F48 /* FirebaseAuth */; };
+		30679AB9281DF63800CE6F48 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 30679AB8281DF63800CE6F48 /* FirebaseFirestore */; };
+		30679ABC281E4D0C00CE6F48 /* NutritionAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30679ABB281E4D0C00CE6F48 /* NutritionAnalysis.swift */; };
+		30CBD52D28232FCB00E67695 /* AddMealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBD52C28232FCB00E67695 /* AddMealTableViewController.swift */; };
+		30CBD52F2823350A00E67695 /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBD52E2823350A00E67695 /* IngredientCell.swift */; };
+		30CBD53328233EAD00E67695 /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBD53228233EAD00E67695 /* Meals.swift */; };
+		30CBD5352823469400E67695 /* AddIngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBD5342823469400E67695 /* AddIngredientViewController.swift */; };
+		30CBD5442825E8C700E67695 /* MealSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBD5432825E8C700E67695 /* MealSummary.swift */; };
+		30CBD5462826BAE500E67695 /* MealSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBD5452826BAE500E67695 /* MealSummaryViewController.swift */; };
+		30CBD5502827796400E67695 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBD54F2827796400E67695 /* Quote.swift */; };
+		30CBD553282887C600E67695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CBD552282887C600E67695 /* Assets.xcassets */; };
+		30CBD55728288C8900E67695 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBD55628288C8900E67695 /* InitialViewController.swift */; };
+		30E071822813C2B900653B46 /* Sanchez-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30E071812813C2AF00653B46 /* Sanchez-Italic.ttf */; };
+		30E071832813C2BC00653B46 /* Sanchez-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30E071802813C2AF00653B46 /* Sanchez-Regular.ttf */; };
+		30E071862814433600653B46 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E071852814433600653B46 /* RegisterViewController.swift */; };
+		30E071872814460500653B46 /* Lemon-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30E0717F2813BF4800653B46 /* Lemon-Regular.ttf */; };
 		30FE34ED2813A1EB00A381EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FE34EC2813A1EB00A381EB /* AppDelegate.swift */; };
 		30FE34EF2813A1EB00A381EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FE34EE2813A1EB00A381EB /* SceneDelegate.swift */; };
-		30FE34F12813A1EB00A381EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FE34F02813A1EB00A381EB /* ViewController.swift */; };
 		30FE34F42813A1EB00A381EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FE34F22813A1EB00A381EB /* Main.storyboard */; };
 		30FE34F62813A1ED00A381EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FE34F52813A1ED00A381EB /* Assets.xcassets */; };
 		30FE34F92813A1ED00A381EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FE34F72813A1ED00A381EB /* LaunchScreen.storyboard */; };
+		30FE35012813A79E00A381EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FE35002813A79E00A381EB /* LoginViewController.swift */; };
+		30FE35042813B08200A381EB /* NT-Josefine.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30FE35032813AFB300A381EB /* NT-Josefine.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3024E88E281DF4B900258AD0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30603AFD281484C300766B1C /* MealListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListController.swift; sourceTree = "<group>"; };
+		30677090281A106900D98562 /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
+		30679ABB281E4D0C00CE6F48 /* NutritionAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAnalysis.swift; sourceTree = "<group>"; };
+		30CBD52C28232FCB00E67695 /* AddMealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealTableViewController.swift; sourceTree = "<group>"; };
+		30CBD52E2823350A00E67695 /* IngredientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
+		30CBD53228233EAD00E67695 /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
+		30CBD5342823469400E67695 /* AddIngredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngredientViewController.swift; sourceTree = "<group>"; };
+		30CBD5432825E8C700E67695 /* MealSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSummary.swift; sourceTree = "<group>"; };
+		30CBD5452826BAE500E67695 /* MealSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSummaryViewController.swift; sourceTree = "<group>"; };
+		30CBD54F2827796400E67695 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		30CBD552282887C600E67695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30CBD55628288C8900E67695 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		30E0717F2813BF4800653B46 /* Lemon-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lemon-Regular.ttf"; sourceTree = "<group>"; };
+		30E071802813C2AF00653B46 /* Sanchez-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sanchez-Regular.ttf"; sourceTree = "<group>"; };
+		30E071812813C2AF00653B46 /* Sanchez-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sanchez-Italic.ttf"; sourceTree = "<group>"; };
+		30E071852814433600653B46 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		30FE34E92813A1EB00A381EB /* Mealy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FE34EC2813A1EB00A381EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30FE34EE2813A1EB00A381EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30FE34F02813A1EB00A381EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30FE34F32813A1EB00A381EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30FE34F52813A1ED00A381EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30FE34F82813A1ED00A381EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30FE34FA2813A1ED00A381EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FE35002813A79E00A381EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		30FE35032813AFB300A381EB /* NT-Josefine.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NT-Josefine.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +69,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30679AB7281DF63800CE6F48 /* FirebaseAuth in Frameworks */,
+				30679AB9281DF63800CE6F48 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30679ABA281E4CF400CE6F48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30679ABB281E4D0C00CE6F48 /* NutritionAnalysis.swift */,
+				30CBD5432825E8C700E67695 /* MealSummary.swift */,
+				30CBD54F2827796400E67695 /* Quote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30CBD53028233E8B00E67695 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				30CBD53228233EAD00E67695 /* Meals.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		30E07184281442F000653B46 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				30CBD55628288C8900E67695 /* InitialViewController.swift */,
+				30FE35002813A79E00A381EB /* LoginViewController.swift */,
+				30E071852814433600653B46 /* RegisterViewController.swift */,
+				30603AFD281484C300766B1C /* MealListController.swift */,
+				30CBD52C28232FCB00E67695 /* AddMealTableViewController.swift */,
+				30CBD5342823469400E67695 /* AddIngredientViewController.swift */,
+				30CBD5452826BAE500E67695 /* MealSummaryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		30ECC027281A141300A05A7A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				30677090281A106900D98562 /* MealCell.swift */,
+				30CBD52E2823350A00E67695 /* IngredientCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		30FE34E02813A1EB00A381EB = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +137,32 @@
 		30FE34EB2813A1EB00A381EB /* Mealy */ = {
 			isa = PBXGroup;
 			children = (
+				30CBD53028233E8B00E67695 /* Singleton */,
+				30679ABA281E4CF400CE6F48 /* Model */,
+				30ECC027281A141300A05A7A /* Cells */,
+				30E07184281442F000653B46 /* Controllers */,
 				30FE34EC2813A1EB00A381EB /* AppDelegate.swift */,
-				30FE34EE2813A1EB00A381EB /* SceneDelegate.swift */,
-				30FE34F02813A1EB00A381EB /* ViewController.swift */,
-				30FE34F22813A1EB00A381EB /* Main.storyboard */,
-				30FE34F52813A1ED00A381EB /* Assets.xcassets */,
-				30FE34F72813A1ED00A381EB /* LaunchScreen.storyboard */,
+				30FE35022813AF9600A381EB /* fonts */,
 				30FE34FA2813A1ED00A381EB /* Info.plist */,
+				3024E88E281DF4B900258AD0 /* GoogleService-Info.plist */,
+				30FE34F72813A1ED00A381EB /* LaunchScreen.storyboard */,
+				30FE34F22813A1EB00A381EB /* Main.storyboard */,
+				30FE34EE2813A1EB00A381EB /* SceneDelegate.swift */,
+				30CBD552282887C600E67695 /* Assets.xcassets */,
 			);
 			path = Mealy;
+			sourceTree = "<group>";
+		};
+		30FE35022813AF9600A381EB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				30FE34F52813A1ED00A381EB /* Assets.xcassets */,
+				30E071812813C2AF00653B46 /* Sanchez-Italic.ttf */,
+				30E071802813C2AF00653B46 /* Sanchez-Regular.ttf */,
+				30E0717F2813BF4800653B46 /* Lemon-Regular.ttf */,
+				30FE35032813AFB300A381EB /* NT-Josefine.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +181,10 @@
 			dependencies = (
 			);
 			name = Mealy;
+			packageProductDependencies = (
+				30679AB6281DF63800CE6F48 /* FirebaseAuth */,
+				30679AB8281DF63800CE6F48 /* FirebaseFirestore */,
+			);
 			productName = Mealy;
 			productReference = 30FE34E92813A1EB00A381EB /* Mealy.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +213,9 @@
 				Base,
 			);
 			mainGroup = 30FE34E02813A1EB00A381EB;
+			packageReferences = (
+				30679AB5281DF63800CE6F48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 30FE34EA2813A1EB00A381EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +231,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				30FE34F92813A1ED00A381EB /* LaunchScreen.storyboard in Resources */,
+				3024E88F281DF4B900258AD0 /* GoogleService-Info.plist in Resources */,
+				30E071872814460500653B46 /* Lemon-Regular.ttf in Resources */,
 				30FE34F62813A1ED00A381EB /* Assets.xcassets in Resources */,
+				30E071832813C2BC00653B46 /* Sanchez-Regular.ttf in Resources */,
 				30FE34F42813A1EB00A381EB /* Main.storyboard in Resources */,
+				30FE35042813B08200A381EB /* NT-Josefine.otf in Resources */,
+				30CBD553282887C600E67695 /* Assets.xcassets in Resources */,
+				30E071822813C2B900653B46 /* Sanchez-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +249,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FE34F12813A1EB00A381EB /* ViewController.swift in Sources */,
+				30CBD55728288C8900E67695 /* InitialViewController.swift in Sources */,
+				30CBD5502827796400E67695 /* Quote.swift in Sources */,
+				30677091281A106900D98562 /* MealCell.swift in Sources */,
+				30CBD5442825E8C700E67695 /* MealSummary.swift in Sources */,
+				30FE35012813A79E00A381EB /* LoginViewController.swift in Sources */,
+				30CBD5352823469400E67695 /* AddIngredientViewController.swift in Sources */,
+				30CBD52F2823350A00E67695 /* IngredientCell.swift in Sources */,
+				30679ABC281E4D0C00CE6F48 /* NutritionAnalysis.swift in Sources */,
+				30CBD53328233EAD00E67695 /* Meals.swift in Sources */,
+				30603AFE281484C300766B1C /* MealListController.swift in Sources */,
+				30CBD52D28232FCB00E67695 /* AddMealTableViewController.swift in Sources */,
 				30FE34ED2813A1EB00A381EB /* AppDelegate.swift in Sources */,
 				30FE34EF2813A1EB00A381EB /* SceneDelegate.swift in Sources */,
+				30CBD5462826BAE500E67695 /* MealSummaryViewController.swift in Sources */,
+				30E071862814433600653B46 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +408,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97PMPF9R26;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mealy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -301,6 +426,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveGodly.Mealy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,8 +438,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97PMPF9R26;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mealy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +456,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveGodly.Mealy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -356,6 +485,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		30679AB5281DF63800CE6F48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		30679AB6281DF63800CE6F48 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30679AB5281DF63800CE6F48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		30679AB8281DF63800CE6F48 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30679AB5281DF63800CE6F48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 30FE34E12813A1EB00A381EB /* Project object */;
 }
